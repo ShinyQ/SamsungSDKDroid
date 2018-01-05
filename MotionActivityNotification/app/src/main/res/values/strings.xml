@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">UserActivityAndNotificationSample</string>
+    <string name="label_status">Status : </string>
+    <string name="label_accuracy">Status : </string>
+    <string name="label_timestamp">Status : </string>
+    <string name="status">None</string>
+    <string name="accuracy">0</string>
+    <string name="timestamp">00:00:00</string>
+
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+
+    <string name="realtime">Realtime</string>
+    <string name="batch">Batch</string>
+
+    <string name="stationary">Stationary</string>
+    <string name="walk">Walk</string>
+    <string name="run">Run</string>
+    <string name="vehicle">Vehicle</string>
+
+    <string name="info">Info</string>
+
+    <string name="updateinfo">Update Info</string>
+    <string-array name="switch_mode">
+        <item>User Activity</item>
+        <item>User Activity Notification</item>
+    </string-array>
+
+</resources>

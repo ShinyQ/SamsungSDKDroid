@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.app.smktelkom.notificationmotionactivity.MainActivity"
+    android:gravity="center">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Spinner
+            android:id="@+id/spinner_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawSelectorOnTop="true"
+            android:entries="@array/switch_mode"
+            android:layout_gravity="center"
+            style="@style/Base.Widget.AppCompat.DropDownItem.Spinner"
+            />
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:id="@+id/frame_layout">
+        </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>

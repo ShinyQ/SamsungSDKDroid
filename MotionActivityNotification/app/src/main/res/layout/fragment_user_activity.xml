@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.app.smktelkom.notificationmotionactivity.UserActivityFragment">
+    >
+
+    <RadioGroup
+        android:id="@+id/radio_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio_realtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/realtime" />
+
+        <RadioButton
+            android:id="@+id/radio_batch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/batch" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/start" />
+
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:enabled="false"
+        android:text="@string/updateinfo" />
+
+    <TextView
+        android:id="@+id/text_info"
+        style="@android:style/TextAppearance.Medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/info" />
+</LinearLayout>
